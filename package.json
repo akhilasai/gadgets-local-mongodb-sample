@@ -1,0 +1,21 @@
+{
+  "name": "gadgetstore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "npm run start --prefix back-end",
+    "client": "npm run start --prefix front-end",
+    "predev": "npm install",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "testserver": "npm run test --prefix back-end",
+    "testclient": "npm run test --prefix front-end",
+    "pretest": "npm install",
+    "test": "concurrently \"npm run testserver\" \"npm run testclient\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.1"
+  }
+}

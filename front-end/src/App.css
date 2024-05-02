@@ -1,0 +1,14 @@
+#title{
+  text-align: center;
+  margin: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+  font-size: 100px;
+  color: orange;
+}
+
+a
+{
+  text-decoration: none;
+  color: black;
+}
